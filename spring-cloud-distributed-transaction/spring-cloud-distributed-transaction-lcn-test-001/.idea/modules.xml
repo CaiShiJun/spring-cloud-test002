@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-distributed-transaction-lcn-consumer-movie/spring-cloud-distributed-transaction-lcn-consumer-movie.iml" filepath="$PROJECT_DIR$/spring-cloud-distributed-transaction-lcn-consumer-movie/spring-cloud-distributed-transaction-lcn-consumer-movie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-distributed-transaction-lcn-eureka-server/spring-cloud-distributed-transaction-lcn-eureka-server.iml" filepath="$PROJECT_DIR$/spring-cloud-distributed-transaction-lcn-eureka-server/spring-cloud-distributed-transaction-lcn-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-distributed-transaction-lcn-provider-user/spring-cloud-distributed-transaction-lcn-provider-user.iml" filepath="$PROJECT_DIR$/spring-cloud-distributed-transaction-lcn-provider-user/spring-cloud-distributed-transaction-lcn-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-distributed-transaction-lcn-test-001.iml" filepath="$PROJECT_DIR$/spring-cloud-distributed-transaction-lcn-test-001.iml" />
+    </modules>
+  </component>
+</project>

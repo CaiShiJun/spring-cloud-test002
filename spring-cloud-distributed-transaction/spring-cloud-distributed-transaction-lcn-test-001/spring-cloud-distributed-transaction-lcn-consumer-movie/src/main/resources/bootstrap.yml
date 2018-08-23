@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: spring-cloud-distributed-transaction-lcn-consumer-movie
+server:
+  port: 8802

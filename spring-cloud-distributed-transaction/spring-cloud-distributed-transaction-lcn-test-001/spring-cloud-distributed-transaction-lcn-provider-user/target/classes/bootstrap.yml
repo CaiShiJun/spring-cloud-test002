@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: spring-cloud-distributed-transaction-lcn-provider-user
+server:
+  port: 8801

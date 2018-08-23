@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-distributed-transaction-lcn-consumer-movie" />
+        <module name="spring-cloud-distributed-transaction-lcn-eureka-server" />
+        <module name="spring-cloud-distributed-transaction-lcn-provider-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-cloud-distributed-transaction-lcn-consumer-movie" target="1.8" />
+      <module name="spring-cloud-distributed-transaction-lcn-eureka-server" target="1.8" />
+      <module name="spring-cloud-distributed-transaction-lcn-provider-user" target="1.8" />
+      <module name="spring-cloud-distributed-transaction-lcn-test-001" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
