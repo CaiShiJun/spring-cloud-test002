@@ -1,0 +1,3 @@
+mvn install:install-file -Dfile=tx-client-4.1.0.jar -DgroupId=com.codingapi -DartifactId=tx-client -Dversion=4.1.0 -Dpackaging=jar && mvn install:install-file -Dfile=tx-plugins-db-4.1.0.jar -DgroupId=com.codingapi -DartifactId=tx-plugins-db -Dversion=4.1.0 -Dpackaging=jar && mvn install:install-file -Dfile=transaction-springcloud-4.1.0.jar -DgroupId=com.codingapi -DartifactId=transaction-springcloud -Dversion=4.1.0 -Dpackaging=jar
+
+@pause
