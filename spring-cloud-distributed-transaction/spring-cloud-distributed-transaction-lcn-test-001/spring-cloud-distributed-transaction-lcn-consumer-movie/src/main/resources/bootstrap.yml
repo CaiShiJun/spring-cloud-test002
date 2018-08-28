@@ -1,5 +1,20 @@
 spring:
   application:
     name: spring-cloud-distributed-transaction-lcn-consumer-movie
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test_tr?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: root
 server:
   port: 8802
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
+
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+
+tm.manager.url: http://127.0.0.1:8899/tx/manager/
